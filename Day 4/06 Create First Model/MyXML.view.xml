@@ -1,0 +1,25 @@
+<mvc:View 
+    xmlns="sap.m" 
+    xmlns:mvc="sap.ui.core.mvc" 
+    controllerName="donald.controller.Main" 
+    xmlns:f="sap.ui.layout.form">
+
+    <f:SimpleForm editable="true">
+        <f:content>
+            <Label text="Emp ID"/>
+            <Input id="idEmpId" width="20%" value="{/empStr/empId}"/>
+            <Label text="Emp Name"/>
+            <Input id="idEmpName" width="40%" value="{/empStr/empName}"/>
+            <Label text="Salary"/>
+            <Input id="idEmpSal" width="30%" value="{/empStr/salary}"/>
+            <Label text="Currency"/>
+            <Input id="idCurr" width="30%" value="{/empStr/currency}"/>
+            <Label text="Smoker" />
+            <Switch state="{/empStr/smoker}" />
+            <Label />
+            <Button text="Change Data" press="onChangeData" ></Button>
+        </f:content>
+    </f:SimpleForm>
+    <!-- <Input id="idNewInput" width="20%" ></Input>
+    <Button text="Click My XML Button" press="runMycode"></Button> -->
+</mvc:View>
