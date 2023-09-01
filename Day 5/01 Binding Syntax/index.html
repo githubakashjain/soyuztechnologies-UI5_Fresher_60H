@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <!-- Bootstrap - initialization code for UI5 framework -->
+        <script src="https://ui5.sap.com/resources/sap-ui-core.js"
+                data-sap-ui-libs="sap.m"
+                data-sap-ui-theme="sap_fiori_3_dark"
+                data-sap-ui-resourceroots='{
+                    "donald": "./"
+                }'
+                data-sap-ui-bindingSyntax="complex">
+        </script>
+        <script>
+
+            //Create a view object and place that it in DOM
+            // var oView = new sap.ui.view({
+            //     viewName: "donald.view.Main",
+            //     id: "idMain",
+            //     type: "JS"
+            // });
+
+            //Create a view object of our newly create XML view
+            var oViewXML = new sap.ui.view({
+                viewName: "donald.view.MyXML",
+                id: "idMyXML",
+                type: "XML"
+            });
+
+            // Place our view in the body of the html content
+            // oView.placeAt("content");
+            oViewXML.placeAt("content2");
+
+        </script>
+    </head>
+    <body class="sapUiBody">
+        <div id="content"></div>
+        <div id="content2"></div>
+    </body>
+</html>

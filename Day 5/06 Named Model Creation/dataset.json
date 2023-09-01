@@ -1,0 +1,57 @@
+{
+    "empStr": {
+        "empId": "9000",
+        "empName": "Terian",
+        "salary": 15000,
+        "currency": "USD",
+        "smoker": false
+    },
+    "empTab": [
+        {
+            "empId": "9001",
+            "empName": "Daenerys",
+            "salary": 5500,
+            "currency": "USD",
+            "smoker": false,
+            "gender": "Female",
+            "mStat": "M",
+            "rating": 3
+        },{
+            "empId": "9002",
+            "empName": "Sarsi",
+            "salary": 9800,
+            "currency": "EUR",
+            "smoker": true,
+            "gender": "Female",
+            "mStat": "M",
+            "rating": 3
+        },{
+            "empId": "9003",
+            "empName": "Aliya",
+            "salary": 7800,
+            "currency": "EUR",
+            "smoker": false,
+            "gender": "Female",
+            "mStat": "S",
+            "rating": 5
+        },{
+            "empId": "9004",
+            "empName": "Ned Stark",
+            "salary": 6600,
+            "currency": "AED",
+            "smoker": true,
+            "gender": "Male",
+            "mStat": "M",
+            "rating": 3
+        },{
+            "empId": "9005",
+            "empName": "Jamie",
+            "salary": 15000,
+            "currency": "INR",
+            "smoker": true,
+            "gender": "Male",
+            "mStat": "S",
+            "rating": 1
+        }
+    ]
+}
