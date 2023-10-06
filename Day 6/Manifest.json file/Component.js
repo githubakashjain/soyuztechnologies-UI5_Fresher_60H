@@ -3,6 +3,9 @@ sap.ui.define([
 ], function(UIComponent) {
     'use strict';
     return UIComponent.extend("emc2.sd.products.Component",{
+        metadata : {
+            manifest : "json"
+        },
         init: function(){
             //call the base class constructor to get free benefits from super class
             //super->constructor()
